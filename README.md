@@ -1,4 +1,4 @@
-# pH_calculator
+# pee-H-calculator
 
 We started measuring the pH in mouse urine using pH strips. Strips are photographed and the RGB-values of each strip are measured in Fiji.
 This results in an Excel file which multiple columns, including a column with the 3 measurements for each sample.
