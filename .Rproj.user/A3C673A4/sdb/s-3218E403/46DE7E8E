@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1482188904682.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "46DE7E8E",
+    "lastKnownWriteTime" : 2317441066710687488,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "buffer_data",
+        "contentUrl" : "content?title=buffer_data&file=8ed9f1d2477840c593317edee88b8d78.htm",
+        "displayedObservations" : 6,
+        "displayedVariables" : 3,
+        "totalObservations" : 6,
+        "variables" : 3
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1482186615196.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "537747A7",
+    "lastKnownWriteTime" : 2317441066710687536,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "pH_data",
+        "contentUrl" : "content?title=pH_data&file=94c585a05e704c4aafea533426835c8b.htm",
+        "displayedObservations" : "15",
+        "displayedVariables" : 3,
+        "totalObservations" : "15",
+        "variables" : "3"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
