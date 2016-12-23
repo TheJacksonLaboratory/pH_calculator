@@ -1,21 +1,21 @@
 {
     "contents" : "",
-    "created" : 1482188904682.000,
+    "created" : 1482527199595.000,
     "dirty" : false,
     "encoding" : "",
     "folds" : "",
     "hash" : "0",
-    "id" : "46DE7E8E",
-    "lastKnownWriteTime" : 2317441066710687488,
+    "id" : "5A7DD59D",
+    "lastKnownWriteTime" : 2988182807541019648,
     "path" : null,
     "project_path" : null,
     "properties" : {
         "caption" : "buffer_data",
-        "contentUrl" : "content?title=buffer_data&file=8ed9f1d2477840c593317edee88b8d78.htm",
-        "displayedObservations" : 6,
+        "contentUrl" : "content?title=buffer_data&file=5efc34c01cbe4856962db5d4a0be486c.htm",
+        "displayedObservations" : "6",
         "displayedVariables" : 3,
-        "totalObservations" : 6,
-        "variables" : 3
+        "totalObservations" : "6",
+        "variables" : "3"
     },
     "source_on_save" : false,
     "type" : "r_dataframe"

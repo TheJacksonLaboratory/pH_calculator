@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1482527704712.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "1461877E",
+    "lastKnownWriteTime" : 1152921504876530176,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "pH_results",
+        "contentUrl" : "content?title=pH_results&file=cf75ec0879424f4f8602fc4c153b6b35.htm",
+        "displayedObservations" : 15,
+        "displayedVariables" : 1,
+        "totalObservations" : 15,
+        "variables" : 1
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

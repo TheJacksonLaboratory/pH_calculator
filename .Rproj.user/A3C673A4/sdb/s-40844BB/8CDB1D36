@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1482527202954.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "8CDB1D36",
+    "lastKnownWriteTime" : 4298827024,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "tbuffers",
+        "contentUrl" : "content?title=tbuffers&file=bb0597e9698e4ed4913015a2989da2ac.htm",
+        "displayedObservations" : "6",
+        "displayedVariables" : 4,
+        "totalObservations" : "6",
+        "variables" : "4"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
