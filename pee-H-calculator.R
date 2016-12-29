@@ -1,6 +1,6 @@
 ## reads the results in the "Mean" column in the file from ImageJ
 library(data.table)
-data <- fread("pH_results.csv", select =c("Mean"))
+data <- fread("results.csv", select =c("Mean"))
 
 ## reformat the table to 3 values (R, G, and B) per row
 data_list<-list(data)
@@ -22,7 +22,7 @@ Best<-summary(fit)$coefficient[4,1]
 
 ## calculation of pH in matrix
 pH_results<-matrix(apply(pH_data, 1, function(x) intercept+x[1]*Rest+x[2]*Gest+x[3]*Best))
-colnames(pH_results)<- c("sample","pH")
+colnames(pH_results)<- c("pH")
 
 ## save results to a file
 write.csv(pH_results, file="pH_results.csv")

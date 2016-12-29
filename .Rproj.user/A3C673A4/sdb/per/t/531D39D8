@@ -1,0 +1,16 @@
+{
+    "contents" : "## reads the results in the \"Mean\" column in the file from ImageJ\nlibrary(data.table)\ndata <- fread(\"results.csv\", select =c(\"Mean\"))\n\n## reformat the table to 3 values (R, G, and B) per row\ndata_list<-list(data)\npH_data<-matrix(unlist(data_list), ncol=3, byrow=TRUE)\n\n## create matrix with the data from the 6 buffers\nbuffer_data<-head(pH_data,6)\nbuffers=matrix(c(4,4.63,5,6,6.8,7),nrow=6,ncol=1)\ntbuffers<-cbind2(buffers,buffer_data)\ncolnames(tbuffers)<- c(\"pH\",\"R\",\"G\",\"B\")\ntbuffersframe<-as.data.frame(tbuffers)\n\n## multiple regression on tbuffers\nfit<-lm(pH ~ R + G + B, data=tbuffersframe)\nintercept<-summary(fit)$coefficients[1,1]\nRest<-summary(fit)$coefficient[2,1]\nGest<-summary(fit)$coefficient[3,1]\nBest<-summary(fit)$coefficient[4,1]\n\n## calculation of pH in matrix\npH_results<-matrix(apply(pH_data, 1, function(x) intercept+x[1]*Rest+x[2]*Gest+x[3]*Best))\ncolnames(pH_results)<- c(\"pH\")\n\n## save results to a file\nwrite.csv(pH_results, file=\"pH_results.csv\")",
+    "created" : 1482186218547.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2877665465",
+    "id" : "531D39D8",
+    "lastKnownWriteTime" : 1483007293,
+    "path" : "~/GitHub/pee-H-calculator/pee-H-calculator.R",
+    "project_path" : "pee-H-calculator.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

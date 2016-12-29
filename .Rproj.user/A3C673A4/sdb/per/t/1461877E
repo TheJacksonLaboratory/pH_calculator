@@ -11,11 +11,11 @@
     "project_path" : null,
     "properties" : {
         "caption" : "pH_results",
-        "contentUrl" : "content?title=pH_results&file=cf75ec0879424f4f8602fc4c153b6b35.htm",
-        "displayedObservations" : 15,
+        "contentUrl" : "content?title=pH_results&file=bf2f763d39bb45ef969bc2266213bc80.htm",
+        "displayedObservations" : "81",
         "displayedVariables" : 1,
-        "totalObservations" : 15,
-        "variables" : 1
+        "totalObservations" : "81",
+        "variables" : "1"
     },
     "source_on_save" : false,
     "type" : "r_dataframe"
